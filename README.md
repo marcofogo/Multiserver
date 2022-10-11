@@ -6,7 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of Multiserver is to …
+The goal of Multiserver is to show the starting, ending and duration
+times of people in different cues.
 
 ## Installation
 
@@ -20,7 +21,7 @@ devtools::install_github("marcofogo/Multiserver")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is one way to use the function Multiserver.
 
 ``` r
 ## basic example code
