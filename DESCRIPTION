@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Marco", "Fogolin", , "marco.fogolin@students.mq.edu.au", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: The package uses a fucntion which takes a data set ('bank', in this case) and displays, in a data frame, the arrival time of the customer, what time the customer's service begins, the server number they choose and what time the service ends.
+Description: The package uses a fucntion which takes a data set and displays, in a data frame, the arrival time of the customer, what time the customer's service begins, the server number they choose and what time the service ends.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

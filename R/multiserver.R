@@ -4,7 +4,7 @@
 #' @param ServiceTimes The time they took at the counter with their service
 #' @param NumServers How many servers there are available
 #'
-#' @return data.frame of 4 variables about the Arrivals, ServiceBegins, ChosenServer, Service Ends
+#' @return tibble of 4 variables about the Arrivals, ServiceBegins, ChosenServer, Service Ends
 #' @export
 #'
 #' @examples Multiserver(bank$arrival_time,bank$service_time)
