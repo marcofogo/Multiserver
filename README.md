@@ -24,9 +24,6 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 ## basic example code
-devtools::install_github("marcofogo/Multiserver")
-#> Skipping install of 'Multiserver' from a github remote, the SHA1 (1dfe47a2) has not changed since last install.
-#>   Use `force = TRUE` to force installation
 library(Multiserver)
 data(bank)
 head(Multiserver(bank$arrival_time,bank$service_time))
@@ -51,16 +48,3 @@ head(bank)
 #> 5     371.9286    280.30339
 #> 6     395.9377     78.11599
 ```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this. You could also
-use GitHub Actions to re-render `README.Rmd` every time you push. An
-example workflow can be found here:
-<https://github.com/r-lib/actions/tree/v1/examples>.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
