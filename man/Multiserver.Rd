@@ -14,7 +14,7 @@ Multiserver(Arrivals, ServiceTimes, NumServers = 1)
 \item{NumServers}{How many servers there are available}
 }
 \value{
-data.frame of 4 variables about the Arrivals, ServiceBegins, ChosenServer, Service Ends
+tibble of 4 variables about the Arrivals, ServiceBegins, ChosenServer, Service Ends
 }
 \description{
 Multiserver

@@ -8,8 +8,8 @@
 \code{bank}
 A data frame with 100 rows and 2 columns:
 \describe{
-\item{arrival}{time}
-\item{service}{time}
+\item{arrival_time}{the time that people would arrive at the bank}
+\item{service_time}{how long it would take people at the counter}
 }
 }
 \usage{
